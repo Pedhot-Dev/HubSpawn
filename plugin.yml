@@ -1,0 +1,16 @@
+name: HubSpawn
+main: PedhotDev\HubSpawn\Main
+api: 5.0.0
+version: 1.0.0
+author: PedhotDev
+
+permissions:
+  hubspawn.command.admin:
+    default: op
+    description: "Allows player to set or edit server hub & world spawn position"
+  hubspawn.command.hub:
+    default: true
+    description: "Allows player to teleport into server hub"
+  hubspawn.command.spawn:
+    default: true
+    description: "Allows player to teleport to world spawn point"
