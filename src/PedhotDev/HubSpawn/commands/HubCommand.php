@@ -13,7 +13,7 @@ class HubCommand extends Command
 
     public function __construct(private Main $plugin)
     {
-        parent::__construct("hub", "Teleport into server hub");
+        parent::__construct("hub", "Teleport into server hub", null, ["lobby"]);
         $this->setPermission("hubspawn.command.hub");
     }
 

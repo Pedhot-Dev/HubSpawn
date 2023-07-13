@@ -9,11 +9,11 @@ Hub & Spawn for PocketMine-MP V5
 - With permission (default/OP)
 
 # Commands & Permissions
-| Commands  | Permissions            | Informations |
-| ------------- |------------------------| ------------- |
-| /hubspawn  | hubspawn.command.admin | Admin only  |
-| /hub  | hubspawn.command.hub           | For all players  |
-| /spawn  | hubspawn.command.spawn         | For all players  |
+| Commands  | Description                        | Usage                          | Permissions            | Informations |
+| ------------- |------------------------------------|--------------------------------|------------------------| ------------- |
+| /hubspawn  | Set server hub & world spawn point | /hubspawn <option: hub, spawn> | hubspawn.command.admin | Admin only  |
+| /hub  | Teleport into server hub           | /hub                           | hubspawn.command.hub           | For all players  |
+| /spawn  | Teleport into world spawn point    | /spawn                         | hubspawn.command.spawn         | For all players  |
 
 # API
 ### Get server hub / lobby & world spawn point
