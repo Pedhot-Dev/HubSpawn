@@ -5,4 +5,5 @@ branches:
 projects:
   HubSpawn:
     path: ""
+    icon: "icon.png"
 ...
