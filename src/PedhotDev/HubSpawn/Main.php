@@ -47,7 +47,10 @@ class Main extends PluginBase
         return new Position((int)($data["x"] ?? 0), (int)($data["y"] ?? 0), (int)($data["z"] ?? 0), $world);
     }
 
-    public function getSpawnPoint(World $world): Position {
+    public function getSpawnPoint(World|string $world): Position {
+        if (is_string($world)) {
+            $world = Server::getInstance()->getWorldManager()->getWorldByName($world);
+        }
         return $world->getSpawnLocation();
     }
 
